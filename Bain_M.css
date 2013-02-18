@@ -1,0 +1,35 @@
+/* Michael Bain
+ Visual Frameworks
+ 1302
+ project 2
+ css file
+*/
+
+
+h1 {
+    background: color #ff9686;
+    padding-left: 70px;
+    margin-left: 0px;
+    margin-top: 1px;
+    border:1px solid black;
+    font-family: Helvetica, sans-serif;
+    font: 25px Arial;   
+    
+}
+
+form{
+     background: #ff7575;
+    
+    
+    
+    
+}
+body{
+     background: #dadcd9;
+    
+    
+}
+
+li{
+   font-family: Helvetica, sans-serif; 
+}
