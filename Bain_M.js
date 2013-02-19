@@ -114,7 +114,7 @@ window.addEventListener("DOMContentLoaded", function(){
                var optSubText = obj[n][0]+" "+obj[n][1];
                makeSubLi.innerHTML = optSubText;
            }
-        
+       } 
    }
     function clearLocal(){
         if(localStorage.length === 0){
@@ -127,7 +127,7 @@ window.addEventListener("DOMContentLoaded", function(){
             
         }
        
-    }
+    
    }
    var recordingFormats = ["--Analog--", "2in.Tape/24", "--Digital--", "Pro ToolsHD","Logic", "Nuendo/Cubase", "FL Studio" ],
        engineerValue = "No",
@@ -137,8 +137,8 @@ window.addEventListener("DOMContentLoaded", function(){
 
    var displayLink = $("displayLink");
    displayLink.addEventListener("click", getData);
-   //var clearLink = $("clear");
-   //clearLink.addEventListener("click", clearLocal);
+   var clearLink = $("clearLink");
+   clearLink.addEventListener("click", clearLocal);
    var submit = $("submitBooking");
    submit.addEventListener("click", storeData);
 });  
